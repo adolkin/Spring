@@ -15,7 +15,7 @@
     </bean>
     
     <bean id="myCoach"
-    	class="com.luv2code.springdemo.TrackCoach
+    	class="com.luv2code.springdemo.TrackCoach"
     	scope="prototype">
     
     	<!-- set up constructor injection -->

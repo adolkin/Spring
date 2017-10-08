@@ -11,11 +11,11 @@
     
     <!-- define the dependency -->
     <bean id="myFortuneService"
-    	class="com.luv2code.springdemo.HappyFortuneService">
+    	class="com.luv2code.springdemo.RandomFortuneService">
     </bean>
     
-    <bean id="myCoach"
-    	class="com.luv2code.springdemo.TrackCoach"
+    <bean id="myGolfCoach"
+    	class="com.luv2code.springdemo.GolfCoach"
     	scope="prototype">
     
     	<!-- set up constructor injection -->
